@@ -17,12 +17,13 @@ function Contact() {
   return (
     <>
       <div className="ContactPage">
-      <p className="contactText" style={{textAlign:"center", fontSize:"25px", color:"grey"}}> Let's Grab a Coffee?</p>
+      <p className="contactText" style={{textAlign:"center", fontSize:"24px", color:"grey", paddingTop:"10%"}}> Let's Grab a Coffee?</p>
         <div
           style={{
             display: "flex",
             justifyContent: "center",
-            paddingBottom: "7%",
+            paddingTop:"5%",
+            paddingBottom: "20%",
           }}
         >
          <a href="https://www.linkedin.com/in/vimur-s-545970242" target="_blank" className="svgss">
@@ -44,7 +45,7 @@ function Contact() {
         </div>
        
         <p className="footer">
-          Vimur.Sivakumar © {currentYear} - All Rights Reserved
+          vimur.sivakumar © {currentYear} - All Rights Reserved
         </p>
         <p className="footer2">Developed with ❤️ in Coimbatore </p>
       </div>

@@ -102,8 +102,8 @@
     font-size: 2.9rem;
     font-weight: 700;
     margin: 0.5rem 0px 1rem;
-    color: rgb(247, 247, 247);
-
+    /* color: rgb(247, 247, 247); */
+color: black;
 }
 
 
@@ -173,10 +173,11 @@
     font-weight: 900;
     margin-left: 30px;
     text-align: justify;
+    font-family: 'Lato', sans-serif;
 }
 
 .AboutPage{
-    padding: 5% 0% 0% 0% !important;
+    padding: 10% 0% 0% 0% !important;
     display: flex;
 }
 

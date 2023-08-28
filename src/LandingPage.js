@@ -15,11 +15,17 @@ import Card from "react-bootstrap/Card";
 
 function App() {
   const [isDarkMode, setIsDarkMode] = useState(false);
+  // const [currentYear, setCurrentYear] = useState("");
 
   const toggleTheme = () => {
     setIsDarkMode(!isDarkMode);
   };
 
+  // const Contact = () => {
+  //   const year = new Date().getFullYear();
+  //  setCurrentYear( year );
+  // }
+   
   return (
     <>
       <Navbar />
@@ -33,9 +39,10 @@ function App() {
       <div id="LandingPageBG" className={`LandingPageBG ${isDarkMode ? "dark" : "light"}`}>
 
         <Home />
+        <div id="ProjectsPageBG"></div>
       </div>
 
-      <div id="ProjectsPageBG" className={`ProjectsPageBG ${isDarkMode ? "dark" : "light"}`}>
+      <div className={`ProjectsPageBG ${isDarkMode ? "dark" : "light"}`}>
         <div style={{ textAlign: "center" }}>
           <h3 className="projectHead">Projects</h3>
         </div>

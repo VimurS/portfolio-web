@@ -39,12 +39,14 @@
 
   .LandingPageBG{
     margin: 0px !important;
-    padding: 12% 4% 12% 4% !important;
+    padding: 18% 4% 18% 4% !important;
+    /* padding: 12% 4% 12% 4% !important; */
   }
 
   .ProjectsPageBG{
     margin: 0px !important;
-    padding: 5% !important;
+    /* padding: 5% !important; */
+    padding: 15% 4% 15% 4% !important;
   }
 
   .ProjectsPageBG.dark{
@@ -52,7 +54,7 @@
   }
 
   .projectcards{
-    padding: 5% 10% 5% 10%;
+    padding: 10% 10% 5% 10%;
     border-radius: 8px;
   }
 
@@ -84,8 +86,9 @@
     /* background-size: cover; */
     /* background-repeat: no-repeat; */
     background-color: #d8d8d8;
-    padding: 5% 10% 5% 10%;
+    /* padding: 5% 10% 5% 10%; */
     color: white;
+    padding: 15% 4% 15% 4% !important;
 }
 
 .AboutPageBG.dark{
@@ -128,7 +131,8 @@
 }
 
 .ContactsPageBG{
-    padding: 5% 5% 1% 5%;
+    /* padding: 5% 5% 1% 5%; */
+    padding: 15% 10% 2% 10%;
     background-color: black;
 }
 
@@ -190,19 +194,19 @@
 }
 
 .LandingPageBG{
-    padding: 20% 4% 20% 4% !important;
+    padding: 30% 4% 30% 4% !important;
 }
 
 .ProjectsPageBG{
-    padding: 12% 5% 5% 5% !important;
+    padding: 30% 4% 30% 4% !important;
 }
 
 .AboutPageBG{
-    padding: 12% 10% 5% 10%;
+    padding: 30% 4% 30% 4% !important;
 }
 
 .ContactsPageBG{
-    padding: 12% 10% 5% 10%;
+    padding: 30% 10% 10% 10% !important;
 }
 
 .ContactHead{
@@ -230,7 +234,7 @@
 }
 
 .svgss{
-    font-size: 24px;
+    font-size: 40px;
 }
 
 .theme-button {
@@ -270,7 +274,8 @@
     font-size: 1.8rem;
     font-weight: 700;
     margin: 0.5rem 0px 1rem;
-    color: rgb(247, 247, 247);
+    /* color: rgb(247, 247, 247); */
+    color: black;
 }
 
 .nav-container {
