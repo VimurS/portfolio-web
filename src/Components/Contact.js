@@ -17,13 +17,13 @@ function Contact() {
   return (
     <>
       <div className="ContactPage">
-      <p className="contactText" style={{textAlign:"center", fontSize:"24px", color:"grey", paddingTop:"10%"}}> Let's Grab a Coffee?</p>
+      <p className="contactText" style={{textAlign:"center", fontSize:"24px", color:"grey", paddingTop:"10%"}}> Follow My Work @</p>
         <div
           style={{
             display: "flex",
             justifyContent: "center",
             paddingTop:"5%",
-            paddingBottom: "20%",
+            paddingBottom: "10%",
           }}
         >
          <a href="https://www.linkedin.com/in/vimur-s-545970242" target="_blank" className="svgss">
@@ -31,6 +31,17 @@ function Contact() {
 
           <a href="https://github.com/VimurS/" target="_blank" className="svgss"> <FaGithub /> </a>
 
+</div>
+
+          <p className="contactText" style={{textAlign:"center", fontSize:"24px", color:"grey"}}> Let's Grab a Coffee?</p>
+          <div
+          style={{
+            display: "flex",
+            justifyContent: "center",
+            paddingTop:"5%",
+            paddingBottom: "20%",
+          }}
+        >
           <a href="https://twitter.com/vimur7?t=qsKRtJteBRBS03-iMiMsYw&s=09" target="_blank" className="svgss">
           <FaTwitter className="svgss" /></a>
 
